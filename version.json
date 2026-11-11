@@ -1,10 +1,15 @@
 {
-    "latest":  "1.0.2",
+    "latest":  "1.1.0",
     "date":  "2026-11-11",
-    "notes":  "- Thêm công cụ hỗ trợ xuất 2D sketchup vào Revit.",
-    "package":  "SOUL.Atelier_1.0.2.zip",
-    "sha256":  "6bd6714e5bf3c6b9896e68382d57dbba08e6db962f1b0c99906c08c40ed72317",
+    "notes":  "- xuất sketchup sang revit giữ nguyên ground.",
+    "package":  "SOUL.Atelier_1.1.0.zip",
+    "sha256":  "57c92302aff49183f3218e1ac6ba2e2fc5ce33c8843dca22d7f8bf7b0685ac02",
     "history":  [
+                    {
+                        "version":  "1.1.0",
+                        "date":  "2026-11-11",
+                        "notes":  "- xuất sketchup sang revit giữ nguyên ground."
+                    },
                     {
                         "version":  "1.0.2",
                         "date":  "2026-11-11",
