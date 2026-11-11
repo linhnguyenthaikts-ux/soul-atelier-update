@@ -1,0 +1,14 @@
+{
+    "latest":  "1.0.0",
+    "date":  "2026-11-11",
+    "notes":  "- copy trực tiếp autocad vào revit.",
+    "package":  "SOUL.Atelier_1.0.0.zip",
+    "sha256":  "3dfd1307051ba63b3fa803e57345a3ce40b2158f1712ff9bebc022d489f80fe2",
+    "history":  [
+                    {
+                        "version":  "1.0.0",
+                        "date":  "2026-11-11",
+                        "notes":  "- copy trực tiếp autocad vào revit."
+                    }
+                ]
+}
