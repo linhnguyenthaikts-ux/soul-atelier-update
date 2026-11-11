@@ -1,10 +1,15 @@
 {
-    "latest":  "1.0.1",
+    "latest":  "1.0.2",
     "date":  "2026-11-11",
-    "notes":  "- Sửa khung giới thiệu.",
-    "package":  "SOUL.Atelier_1.0.1.zip",
-    "sha256":  "9c2492edd67d538d1961f11c1ba5005c8ce3e79db2c11edb11da73295bf65230",
+    "notes":  "- Thêm công cụ hỗ trợ xuất 2D sketchup vào Revit.",
+    "package":  "SOUL.Atelier_1.0.2.zip",
+    "sha256":  "6bd6714e5bf3c6b9896e68382d57dbba08e6db962f1b0c99906c08c40ed72317",
     "history":  [
+                    {
+                        "version":  "1.0.2",
+                        "date":  "2026-11-11",
+                        "notes":  "- Thêm công cụ hỗ trợ xuất 2D sketchup vào Revit."
+                    },
                     {
                         "version":  "1.0.1",
                         "date":  "2026-11-11",
