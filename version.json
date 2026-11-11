@@ -1,10 +1,15 @@
 {
-    "latest":  "1.0.0",
+    "latest":  "1.0.1",
     "date":  "2026-11-11",
-    "notes":  "- copy trực tiếp autocad vào revit.",
-    "package":  "SOUL.Atelier_1.0.0.zip",
-    "sha256":  "3dfd1307051ba63b3fa803e57345a3ce40b2158f1712ff9bebc022d489f80fe2",
+    "notes":  "- Sửa khung giới thiệu.",
+    "package":  "SOUL.Atelier_1.0.1.zip",
+    "sha256":  "9c2492edd67d538d1961f11c1ba5005c8ce3e79db2c11edb11da73295bf65230",
     "history":  [
+                    {
+                        "version":  "1.0.1",
+                        "date":  "2026-11-11",
+                        "notes":  "- Sửa khung giới thiệu."
+                    },
                     {
                         "version":  "1.0.0",
                         "date":  "2026-11-11",
