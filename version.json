@@ -1,10 +1,15 @@
 {
-    "latest":  "1.2.3",
-    "date":  "2026-11-13",
-    "notes":  "- sửa thư viện revit.",
-    "package":  "SOUL.Atelier_1.2.3.zip",
-    "sha256":  "a4162b18d98377d40c37dd34fa0cb132105e9166197feb8d376b72f0e08abcab",
+    "latest":  "1.2.4",
+    "date":  "2026-11-14",
+    "notes":  "- tỉ lệ ảnh xem trước.",
+    "package":  "SOUL.Atelier_1.2.4.zip",
+    "sha256":  "8069104a20e7033cef7c19e6eba1d58f714ce36db4c7393bfab0486c6dee9bb8",
     "history":  [
+                    {
+                        "version":  "1.2.4",
+                        "date":  "2026-11-14",
+                        "notes":  "- tỉ lệ ảnh xem trước."
+                    },
                     {
                         "version":  "1.2.3",
                         "date":  "2026-11-13",
