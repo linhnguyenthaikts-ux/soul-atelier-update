@@ -1,10 +1,15 @@
 {
-    "latest":  "1.1.2",
-    "date":  "2026-11-11",
-    "notes":  "- fix lỗi xuất không ground view port.",
-    "package":  "SOUL.Atelier_1.1.2.zip",
-    "sha256":  "1cf22a977a4b5eeb6061c7460d432e5c1083d291988bafd426d8c1fed3150cb2",
+    "latest":  "1.2.0",
+    "date":  "2026-11-13",
+    "notes":  "- thay đổi cũng nhiều á không nhớ hết.",
+    "package":  "SOUL.Atelier_1.2.0.zip",
+    "sha256":  "3a7e3eb32100342b76ee3acc63d716897f62245126379c8132428804ce5709a1",
     "history":  [
+                    {
+                        "version":  "1.2.0",
+                        "date":  "2026-11-13",
+                        "notes":  "- thay đổi cũng nhiều á không nhớ hết."
+                    },
                     {
                         "version":  "1.1.2",
                         "date":  "2026-11-11",
