@@ -1,10 +1,15 @@
 {
-    "latest":  "1.2.4",
+    "latest":  "1.2.5",
     "date":  "2026-11-14",
-    "notes":  "- tỉ lệ ảnh xem trước.",
-    "package":  "SOUL.Atelier_1.2.4.zip",
-    "sha256":  "8069104a20e7033cef7c19e6eba1d58f714ce36db4c7393bfab0486c6dee9bb8",
+    "notes":  "- sửa lỗi profile.",
+    "package":  "SOUL.Atelier_1.2.5.zip",
+    "sha256":  "545eff324a87c3dafcc7d07f987a08f8fb59ca770e4f229e64927ad5efb20a63",
     "history":  [
+                    {
+                        "version":  "1.2.5",
+                        "date":  "2026-11-14",
+                        "notes":  "- sửa lỗi profile."
+                    },
                     {
                         "version":  "1.2.4",
                         "date":  "2026-11-14",
