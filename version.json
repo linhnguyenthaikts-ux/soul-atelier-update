@@ -1,10 +1,15 @@
 {
-    "latest":  "1.2.1",
+    "latest":  "1.2.2",
     "date":  "2026-11-13",
-    "notes":  "- Thêm thư viện revit 2D đẹp.",
-    "package":  "SOUL.Atelier_1.2.1.zip",
-    "sha256":  "0dcad5a3af4970b23c4d2eb5088446a98ad430a3bdd6adbe5a315409d300bc09",
+    "notes":  "- Thư viện revit.",
+    "package":  "SOUL.Atelier_1.2.2.zip",
+    "sha256":  "735ab4517a2bf1686a5dd82b21c7327e56605911f7cb5cf5656d35293b35fa35",
     "history":  [
+                    {
+                        "version":  "1.2.2",
+                        "date":  "2026-11-13",
+                        "notes":  "- Thư viện revit."
+                    },
                     {
                         "version":  "1.2.1",
                         "date":  "2026-11-13",
