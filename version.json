@@ -1,10 +1,15 @@
 {
-    "latest":  "1.2.2",
+    "latest":  "1.2.3",
     "date":  "2026-11-13",
-    "notes":  "- Thư viện revit.",
-    "package":  "SOUL.Atelier_1.2.2.zip",
-    "sha256":  "735ab4517a2bf1686a5dd82b21c7327e56605911f7cb5cf5656d35293b35fa35",
+    "notes":  "- sửa thư viện revit.",
+    "package":  "SOUL.Atelier_1.2.3.zip",
+    "sha256":  "a4162b18d98377d40c37dd34fa0cb132105e9166197feb8d376b72f0e08abcab",
     "history":  [
+                    {
+                        "version":  "1.2.3",
+                        "date":  "2026-11-13",
+                        "notes":  "- sửa thư viện revit."
+                    },
                     {
                         "version":  "1.2.2",
                         "date":  "2026-11-13",
