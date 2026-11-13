@@ -1,10 +1,15 @@
 {
-    "latest":  "1.2.0",
+    "latest":  "1.2.1",
     "date":  "2026-11-13",
-    "notes":  "- thay đổi cũng nhiều á không nhớ hết.",
-    "package":  "SOUL.Atelier_1.2.0.zip",
-    "sha256":  "3a7e3eb32100342b76ee3acc63d716897f62245126379c8132428804ce5709a1",
+    "notes":  "- Thêm thư viện revit 2D đẹp.",
+    "package":  "SOUL.Atelier_1.2.1.zip",
+    "sha256":  "0dcad5a3af4970b23c4d2eb5088446a98ad430a3bdd6adbe5a315409d300bc09",
     "history":  [
+                    {
+                        "version":  "1.2.1",
+                        "date":  "2026-11-13",
+                        "notes":  "- Thêm thư viện revit 2D đẹp."
+                    },
                     {
                         "version":  "1.2.0",
                         "date":  "2026-11-13",
