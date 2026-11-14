@@ -1,10 +1,15 @@
 {
-    "latest":  "1.2.6",
+    "latest":  "1.2.7",
     "date":  "2026-11-14",
-    "notes":  "- DÁN ẢNH TRỰC TIẾP VÀO REVIT.",
-    "package":  "SOUL.Atelier_1.2.6.zip",
-    "sha256":  "4b9215493f43fe5fba9a57c28a21aeb7d7293060a80c13ab4eb8760204857ce7",
+    "notes":  "- 2D sketchup qua revit tạo thành family revit.",
+    "package":  "SOUL.Atelier_1.2.7.zip",
+    "sha256":  "9fe19032d3f7ae7b2226277b12154a748bd8ea60176829e75fdb740502507ca4",
     "history":  [
+                    {
+                        "version":  "1.2.7",
+                        "date":  "2026-11-14",
+                        "notes":  "- 2D sketchup qua revit tạo thành family revit."
+                    },
                     {
                         "version":  "1.2.6",
                         "date":  "2026-11-14",
