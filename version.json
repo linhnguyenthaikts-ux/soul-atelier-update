@@ -1,10 +1,15 @@
 {
-    "latest":  "1.2.5",
+    "latest":  "1.2.6",
     "date":  "2026-11-14",
-    "notes":  "- sửa lỗi profile.",
-    "package":  "SOUL.Atelier_1.2.5.zip",
-    "sha256":  "545eff324a87c3dafcc7d07f987a08f8fb59ca770e4f229e64927ad5efb20a63",
+    "notes":  "- DÁN ẢNH TRỰC TIẾP VÀO REVIT.",
+    "package":  "SOUL.Atelier_1.2.6.zip",
+    "sha256":  "4b9215493f43fe5fba9a57c28a21aeb7d7293060a80c13ab4eb8760204857ce7",
     "history":  [
+                    {
+                        "version":  "1.2.6",
+                        "date":  "2026-11-14",
+                        "notes":  "- DÁN ẢNH TRỰC TIẾP VÀO REVIT."
+                    },
                     {
                         "version":  "1.2.5",
                         "date":  "2026-11-14",
