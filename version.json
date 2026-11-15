@@ -1,10 +1,15 @@
 {
-    "latest":  "1.3.1",
+    "latest":  "1.3.2",
     "date":  "2026-11-16",
-    "notes":  "- SỬA LỖI IN NHANH.",
-    "package":  "SOUL.Atelier_1.3.1.zip",
-    "sha256":  "574ee63e1df44df04fc94eeaba002361f6fbdfa4391739c8db2a55d0d00a70e3",
+    "notes":  "- thêm tính năng cảnh báo sheet lỗi.",
+    "package":  "SOUL.Atelier_1.3.2.zip",
+    "sha256":  "fe16b896b50c8bee3be2c724bedacf02f6a777434b3a40de2aae9199d7f60a0f",
     "history":  [
+                    {
+                        "version":  "1.3.2",
+                        "date":  "2026-11-16",
+                        "notes":  "- thêm tính năng cảnh báo sheet lỗi."
+                    },
                     {
                         "version":  "1.3.1",
                         "date":  "2026-11-16",
