@@ -1,10 +1,15 @@
 {
-    "latest":  "1.2.7",
-    "date":  "2026-11-14",
-    "notes":  "- 2D sketchup qua revit tạo thành family revit.",
-    "package":  "SOUL.Atelier_1.2.7.zip",
-    "sha256":  "9fe19032d3f7ae7b2226277b12154a748bd8ea60176829e75fdb740502507ca4",
+    "latest":  "1.2.8",
+    "date":  "2026-11-15",
+    "notes":  "- fix lỗi mở khung thư viện",
+    "package":  "SOUL.Atelier_1.2.8.zip",
+    "sha256":  "764a3349672c66e50d2d931d51365a9adf64e971077b24a73790193e2d7e61c0",
     "history":  [
+                    {
+                        "version":  "1.2.8",
+                        "date":  "2026-11-15",
+                        "notes":  "- fix lỗi mở khung thư viện"
+                    },
                     {
                         "version":  "1.2.7",
                         "date":  "2026-11-14",
