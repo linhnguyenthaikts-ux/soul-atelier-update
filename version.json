@@ -1,10 +1,15 @@
 {
-    "latest":  "1.4.3",
+    "latest":  "1.5.0",
     "date":  "2026-11-16",
-    "notes":  "- sửa lỗi triển khai cửa.",
-    "package":  "SOUL.Atelier_1.4.3.zip",
-    "sha256":  "14c13007bb3bb3af5d6ef1eeca4226d299c080bc5df6cdadcda9f01fc5066c34",
+    "notes":  "- tool triển khai MB xây tường.",
+    "package":  "SOUL.Atelier_1.5.0.zip",
+    "sha256":  "a25d33711ad850d9ac6aece6858f3a4beb2faecca64261797d62add43a747f1b",
     "history":  [
+                    {
+                        "version":  "1.5.0",
+                        "date":  "2026-11-16",
+                        "notes":  "- tool triển khai MB xây tường."
+                    },
                     {
                         "version":  "1.4.3",
                         "date":  "2026-11-16",
