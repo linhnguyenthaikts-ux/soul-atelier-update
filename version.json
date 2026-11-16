@@ -1,10 +1,15 @@
 {
-    "latest":  "1.4.0",
+    "latest":  "1.4.1",
     "date":  "2026-11-16",
-    "notes":  "- Triển khai cửa tự động.",
-    "package":  "SOUL.Atelier_1.4.0.zip",
-    "sha256":  "69deaed2e63ae0761c4728d39562b3064fcb04f27d0c3ddd51480d1592020743",
+    "notes":  "- fix triển khai cửa",
+    "package":  "SOUL.Atelier_1.4.1.zip",
+    "sha256":  "c6b8cb8c6b77f299cb17dd38100d8a8edeacce5658ae7e6ba74ab27120ad5166",
     "history":  [
+                    {
+                        "version":  "1.4.1",
+                        "date":  "2026-11-16",
+                        "notes":  "- fix triển khai cửa"
+                    },
                     {
                         "version":  "1.4.0",
                         "date":  "2026-11-16",
