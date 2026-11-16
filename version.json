@@ -1,10 +1,15 @@
 {
-    "latest":  "1.4.1",
+    "latest":  "1.4.2",
     "date":  "2026-11-16",
-    "notes":  "- fix triển khai cửa",
-    "package":  "SOUL.Atelier_1.4.1.zip",
-    "sha256":  "c6b8cb8c6b77f299cb17dd38100d8a8edeacce5658ae7e6ba74ab27120ad5166",
+    "notes":  "- fix triển khai cửa.",
+    "package":  "SOUL.Atelier_1.4.2.zip",
+    "sha256":  "2664737afdb3549f30f62bcc6d7635568406b162072241afd02899db71a98405",
     "history":  [
+                    {
+                        "version":  "1.4.2",
+                        "date":  "2026-11-16",
+                        "notes":  "- fix triển khai cửa."
+                    },
                     {
                         "version":  "1.4.1",
                         "date":  "2026-11-16",
