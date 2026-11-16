@@ -1,10 +1,15 @@
 {
-    "latest":  "1.5.0",
+    "latest":  "1.5.1",
     "date":  "2026-11-16",
-    "notes":  "- tool triển khai MB xây tường.",
-    "package":  "SOUL.Atelier_1.5.0.zip",
-    "sha256":  "a25d33711ad850d9ac6aece6858f3a4beb2faecca64261797d62add43a747f1b",
+    "notes":  "- sửa lỗi triển khai xây tường.",
+    "package":  "SOUL.Atelier_1.5.1.zip",
+    "sha256":  "8589640c978976dc7005beb97ae74789ecc321a7dfddaf8ea78cfdb8c148daac",
     "history":  [
+                    {
+                        "version":  "1.5.1",
+                        "date":  "2026-11-16",
+                        "notes":  "- sửa lỗi triển khai xây tường."
+                    },
                     {
                         "version":  "1.5.0",
                         "date":  "2026-11-16",
