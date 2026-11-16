@@ -1,10 +1,15 @@
 {
-    "latest":  "1.6.0",
+    "latest":  "1.6.1",
     "date":  "2026-11-17",
-    "notes":  "- MB định vị cửa.",
-    "package":  "SOUL.Atelier_1.6.0.zip",
-    "sha256":  "b4cde3223fc2bf14962ee551fd86910124b93c784a3c1db13a1cb704ca5141d7",
+    "notes":  "- cập nhật tool MB Xây tường.",
+    "package":  "SOUL.Atelier_1.6.1.zip",
+    "sha256":  "6ce2233db78c38a723ec808ffe1a556a49181e3f70434dae1ad8a9baf1b9ade8",
     "history":  [
+                    {
+                        "version":  "1.6.1",
+                        "date":  "2026-11-17",
+                        "notes":  "- cập nhật tool MB Xây tường."
+                    },
                     {
                         "version":  "1.6.0",
                         "date":  "2026-11-17",
