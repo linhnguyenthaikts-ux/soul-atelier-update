@@ -1,10 +1,25 @@
 {
-    "latest":  "1.7.4",
+    "latest":  "1.7.7",
     "date":  "2026-11-17",
-    "notes":  "- SketchUp: thêm SOUL Cầu thang – dựng theo đường vẽ mặt bằng (1 vế / L / U), chiếu nghỉ hoặc bậc rẽ quạt, bản thang BTCT + bậc xây hoặc console treo; đá mặt bậc, đá cổ bậc, mũi bậc, khe LED; bậc giống nhau dùng chung component; bảng cao độ bậc thô.\n- SketchUp: thêm SOUL Lan can – kính kẹp chân, ray U, trụ inox, gắn hông cầu thang; lan can sắt song đứng, song ngang, tấm; dựng theo cạnh chọn, click điểm hoặc theo cầu thang SOUL; bóc khối lượng sơ bộ.",
-    "package":  "SOUL.Atelier_1.7.4.zip",
-    "sha256":  "5b9590646541396062febe6865d4bf25e7a001b0ee101c15849e9380e39038f1",
+    "notes":  "- Thêm \"Copy 2D sang CAD\": copy view hiện tại (hoặc đối tượng đang chọn) trong Revit, sang AutoCAD bấm Ctrl+V là dán – tỉ lệ thật 1:1 mm, dim và chữ giữ nguyên.",
+    "package":  "SOUL.Atelier_1.7.7.zip",
+    "sha256":  "ca3114dcfe53a68d4afc73aa2e4c8b04d97b53f84d2dbb725f452fe538844e1b",
     "history":  [
+                    {
+                        "version":  "1.7.7",
+                        "date":  "2026-11-17",
+                        "notes":  "- Thêm \"Copy 2D sang CAD\": copy view hiện tại (hoặc đối tượng đang chọn) trong Revit, sang AutoCAD bấm Ctrl+V là dán – tỉ lệ thật 1:1 mm, dim và chữ giữ nguyên."
+                    },
+                    {
+                        "version":  "1.7.6",
+                        "date":  "2026-11-17",
+                        "notes":  "- Xuất CAD: thêm kiểu \"Triển khai tiếp\" – từng view ở Model tỉ lệ thật 1:1, dim và chữ giữ nguyên, phá block thoải mái.\n- Xuất CAD: sửa lỗi các view / sheet chồng lên nhau khi gộp 1 file; đầu mỗi view ghi tên + tỉ lệ.\n- Xuất CAD: kiểu \"Bản in\" – cả sheet có khung tên về Model 1:1 khổ giấy."
+                    },
+                    {
+                        "version":  "1.7.5",
+                        "date":  "2026-11-17",
+                        "notes":  "- Xuất cad."
+                    },
                     {
                         "version":  "1.7.4",
                         "date":  "2026-11-17",
