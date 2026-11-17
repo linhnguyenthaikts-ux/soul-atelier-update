@@ -1,10 +1,15 @@
 {
-    "latest":  "1.7.2",
+    "latest":  "1.7.3",
     "date":  "2026-11-17",
-    "notes":  "- thời hạn sử dụng.",
-    "package":  "SOUL.Atelier_1.7.2.zip",
-    "sha256":  "08c7d8f126504599cbb827f2327aaac4a3af58be61f7e9d1fce8d858bc8b1721",
+    "notes":  "- Ghi nội dung cập nhật ở đây, mỗi ý một dòng.",
+    "package":  "SOUL.Atelier_1.7.3.zip",
+    "sha256":  "f0cd642ce662c2846f1ce1b0e115dab10e335acfaf366b42e95693c64af528d9",
     "history":  [
+                    {
+                        "version":  "1.7.3",
+                        "date":  "2026-11-17",
+                        "notes":  "- Ghi nội dung cập nhật ở đây, mỗi ý một dòng."
+                    },
                     {
                         "version":  "1.7.2",
                         "date":  "2026-11-17",
