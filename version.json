@@ -1,10 +1,15 @@
 {
-    "latest":  "1.7.1",
+    "latest":  "1.7.2",
     "date":  "2026-11-17",
-    "notes":  "- cập nhật key hoạt động.",
-    "package":  "SOUL.Atelier_1.7.1.zip",
-    "sha256":  "063d6308f9efcd06b94ff0419419a7f8d31932a9cfc7e6be72148a060ccc5f7b",
+    "notes":  "- thời hạn sử dụng.",
+    "package":  "SOUL.Atelier_1.7.2.zip",
+    "sha256":  "08c7d8f126504599cbb827f2327aaac4a3af58be61f7e9d1fce8d858bc8b1721",
     "history":  [
+                    {
+                        "version":  "1.7.2",
+                        "date":  "2026-11-17",
+                        "notes":  "- thời hạn sử dụng."
+                    },
                     {
                         "version":  "1.7.1",
                         "date":  "2026-11-17",
