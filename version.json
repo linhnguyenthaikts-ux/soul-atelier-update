@@ -1,10 +1,20 @@
 {
-    "latest":  "1.6.1",
+    "latest":  "1.7.1",
     "date":  "2026-11-17",
-    "notes":  "- cập nhật tool MB Xây tường.",
-    "package":  "SOUL.Atelier_1.6.1.zip",
-    "sha256":  "6ce2233db78c38a723ec808ffe1a556a49181e3f70434dae1ad8a9baf1b9ade8",
+    "notes":  "- cập nhật key hoạt động.",
+    "package":  "SOUL.Atelier_1.7.1.zip",
+    "sha256":  "063d6308f9efcd06b94ff0419419a7f8d31932a9cfc7e6be72148a060ccc5f7b",
     "history":  [
+                    {
+                        "version":  "1.7.1",
+                        "date":  "2026-11-17",
+                        "notes":  "- cập nhật key hoạt động."
+                    },
+                    {
+                        "version":  "1.7.0",
+                        "date":  "2026-11-17",
+                        "notes":  "- cập nhật key hoạt động."
+                    },
                     {
                         "version":  "1.6.1",
                         "date":  "2026-11-17",
