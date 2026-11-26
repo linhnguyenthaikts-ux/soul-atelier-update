@@ -1,10 +1,195 @@
 {
-    "latest":  "1.7.7",
-    "date":  "2026-11-17",
-    "notes":  "- Thêm \"Copy 2D sang CAD\": copy view hiện tại (hoặc đối tượng đang chọn) trong Revit, sang AutoCAD bấm Ctrl+V là dán – tỉ lệ thật 1:1 mm, dim và chữ giữ nguyên.",
-    "package":  "SOUL.Atelier_1.7.7.zip",
-    "sha256":  "ca3114dcfe53a68d4afc73aa2e4c8b04d97b53f84d2dbb725f452fe538844e1b",
+    "latest":  "1.8.6",
+    "date":  "2026-11-26",
+    "notes":  "- Bản in Concept: đè nét cả theo từng đối tượng trong view – mọi family (kể cả family có nét / CAD bên trong), CAD import, link, đối tượng đã đè sẵn hay bị filter của view đều ra nét mờ. Mặc định mới: chỉ tường nét dày tô đặc, cửa 0.30, tất cả còn lại (kể cả cột) mờ xanh navy nhạt. \"Gỡ concept\" trả lại y như cũ cả phần đè theo đối tượng.\n- In nhanh: thêm ô \"In kiểu CONCEPT\" – chỉ áp lúc in / xuất PDF, in xong trả lại nguyên trạng, file không đổi gì; báo số view đang áp Concept sẵn.\n- Nút \"Bản in Concept\" đổi thành \"Concept ĐANG ÁP\" khi view / sheet đang mở đang ở kiểu Concept.\n- Bỏ tính năng Space xoay group (bản 1.8.4): phím Space trở lại bình thường hoàn toàn.",
+    "package":  "SOUL.Atelier_1.8.6.zip",
+    "sha256":  "a293df9471bff7681e5163c24a4f70b0524054f17adabe8e39414e4110dbef07",
     "history":  [
+                    {
+                        "version":  "1.8.6",
+                        "date":  "2026-11-26",
+                        "notes":  "- Bản in Concept: đè nét cả theo từng đối tượng trong view – mọi family (kể cả family có nét / CAD bên trong), CAD import, link, đối tượng đã đè sẵn hay bị filter của view đều ra nét mờ. Mặc định mới: chỉ tường nét dày tô đặc, cửa 0.30, tất cả còn lại (kể cả cột) mờ xanh navy nhạt. \"Gỡ concept\" trả lại y như cũ cả phần đè theo đối tượng.\n- In nhanh: thêm ô \"In kiểu CONCEPT\" – chỉ áp lúc in / xuất PDF, in xong trả lại nguyên trạng, file không đổi gì; báo số view đang áp Concept sẵn.\n- Nút \"Bản in Concept\" đổi thành \"Concept ĐANG ÁP\" khi view / sheet đang mở đang ở kiểu Concept.\n- Bỏ tính năng Space xoay group (bản 1.8.4): phím Space trở lại bình thường hoàn toàn."
+                    },
+                    {
+                        "version":  "1.8.5",
+                        "date":  "2026-11-26",
+                        "notes":  "- Bản in Concept (panel Hồ sơ): tường, cột nét cắt dày tô đặc · cửa đi, cửa sổ nét 0.30 · mọi nét còn lại mờ màu xanh navy nhạt. Tùy chỉnh từng nhóm (đè nét hay giữ nguyên, độ dày theo mm bộ chuẩn, màu thương hiệu, tô đặc) – tự nhớ cho lần sau. Áp cho view đang mở hoặc view / sheet chọn trong Project Browser; áp thẳng rồi \"Gỡ concept\" trả lại y như cũ (kể cả view template), hoặc nhân bản thành view \"… - CONCEPT\"."
+                    },
+                    {
+                        "version":  "1.8.4",
+                        "date":  "2026-11-25",
+                        "notes":  "- Space xoay group: chọn group (model / detail) rồi bấm phím Space để xoay 90° như family, Shift+Space xoay ngược; mỗi group xoay quanh tâm của nó, mỗi lần bấm là 1 lần Ctrl+Z. Bật / tắt bằng nút \"Space xoay group\" (panel Sửa 2D).\n- Chế độ ban đêm (panel Giao diện → \"Ban đêm\"): mọi cửa sổ SOUL.Atelier (thư viện family, thư viện pattern, in nhanh, sắp xếp sheet…) nền tối, chữ sáng, thanh tiêu đề tối; ảnh family dịu bớt cho đỡ chói. Nút \"Lệnh tắt\" chuyển sang panel SOUL.Atelier."
+                    },
+                    {
+                        "version":  "1.8.3",
+                        "date":  "2026-11-25",
+                        "notes":  "- Hướng khu đất: dòng tiêu đề (Hướng nhà – Tọa – Sơn hướng – diện tích) luôn nằm ngang phía trên la bàn cho dễ đọc, dù mặt tiền ở phía nào; chữ \"MẶT TIỀN\" cũng nằm ngang."
+                    },
+                    {
+                        "version":  "1.8.2",
+                        "date":  "2026-11-25",
+                        "notes":  "- Hướng khu đất: bảng chọn mới – bước 1 chọn mặt tiền nằm Trên / Dưới / Trái / Phải (theo cách trình bày lên khổ giấy) hoặc click cạnh; mũi tên và chữ MẶT TIỀN quay đúng phía đã chọn. Ranh vẽ từ tọa độ sổ đất: hướng nhà tự tính theo phía mặt tiền chọn. Dòng tiêu đề chọn được: theo mặt tiền (đặt sau nhà, đọc xuôi khi đứng ở mặt tiền) hoặc nằm ngang phía trên.\n- Chọn nhiều đối tượng (ranh đất, nét, group…): bấm Enter để xong thay cho nút Finish."
+                    },
+                    {
+                        "version":  "1.8.1",
+                        "date":  "2026-11-25",
+                        "notes":  "- Hướng dẫn tại con trỏ chuột: mọi bước chọn đối tượng, quét khung, click điểm, đặt family của tool SOUL.Atelier hiện khung hướng dẫn ngay cạnh con trỏ (kèm cách kết thúc: Finish / Esc), không phải nhìn xuống góc dưới trái Revit. Thư viện pattern → Vẽ vùng: nhắc cách vẽ biên và Finish trong vài giây.\n- Nút \"Hướng dẫn chuột\" (panel Giao diện) để bật / tắt."
+                    },
+                    {
+                        "version":  "1.8.0",
+                        "date":  "2026-11-25",
+                        "notes":  "- Panel mới \"Thiết kế\":\n  • Khu đất theo tọa độ: dán bảng tọa độ sổ đất từ Excel / mở file txt, csv / gõ tay (nhận số kiểu Việt 1.234.567,89) → vẽ ranh khu đất đúng kích thước, ghi số mốc, chiều dài cạnh, diện tích để đối chiếu sổ. Chọn cạnh mặt tiền và cách đặt: Bắc lên trên, mặt tiền nằm ngang (dưới / trên) hoặc đứng dọc (trái / phải). Hướng Bắc thật ghi vào ranh đất. Revit 2027+ tạo Property Line thật; bản cũ vẽ model line (Property Line → Pick Lines).\n  • Hướng khu đất (kiểu bàn la kinh): chọn ranh (nét bao, Property Line, filled region, phòng, group nét) → tìm tâm; hướng nhà nhập tay hoặc tự tính từ tọa độ sổ đất; mặt tiền dưới / trên / trái / phải hoặc click cạnh; vòng gợi ý hiện ra rồi click chọn bán kính, độ rộng các vòng tự co giãn. Vẽ vòng 24 sơn, vòng độ, vòng bát quái + tên hướng, 8 đường chia cung, tô cung hướng nhà / tọa, mũi tên Bắc và hướng nhà, tiêu đề Hướng – Tọa – Sơn – diện tích."
+                    },
+                    {
+                        "version":  "1.7.37",
+                        "date":  "2026-11-25",
+                        "notes":  "- Sắp xếp lại tab SOUL.Atelier theo nhóm công việc: Hồ sơ · Thư viện · Triển khai · Dim · Sửa 2D · CAD · SketchUp · Giao diện · SOUL.Atelier. Lệnh chính là nút lớn, lệnh phụ xếp chồng 2–3 nút nhỏ – từ 44 nút lớn còn 13, ribbon gọn và dễ tìm.\n- Lệnh tắt đã đặt cho các nút đổi panel được tự chuyển theo (file lệnh tắt cũ được sao lưu .bak); có hiệu lực từ lần mở Revit kế tiếp.\n- Dim trục (panel Dim): mỗi nhóm trục song song → chuỗi dim qua tất cả trục + dim tổng, đặt phía trong đầu trục (phía có ký hiệu trục hoặc cả 2 đầu). Mặt bằng, trần, mặt cắt, mặt đứng; chọn nhiều view trong Project Browser để dim cùng lúc; chạy lại thì đi lại dim trục cũ của tool."
+                    },
+                    {
+                        "version":  "1.7.36",
+                        "date":  "2026-11-25",
+                        "notes":  "- Thư viện pattern: thêm \"Chọn vùng kín\" như hatch CAD – click vào bên trong vùng có nét bao kín (detail line, model line, nét trong group, detail item, CAD import) → tự dò biên, tự khoét đảo bên trong, click liên tục nhiều vùng; nhấp đúp ô mẫu dùng cách lần trước. \"Vẽ vùng\" vẫn giữ để vẽ biên tay.\n- Dim tiếp (panel Dim): chọn chuỗi dim → click nét / trục / mặt phẳng tham chiếu / tường để nối thêm điểm đo như DIMCONTINUE của CAD; click lại điểm đã có để bỏ; Esc để xong."
+                    },
+                    {
+                        "version":  "1.7.35",
+                        "date":  "2026-11-25",
+                        "notes":  "- Dán 2D SketchUp: sửa lỗi nét thẳng + góc bo bị nắn thành 1 cung lớn (cạnh tủ, khung bàn thờ bị phình / võng) – chỉ nhận cung khi các đoạn chia đều nhau như cung SketchUp thật.\n- Copy 5 mặt (SketchUp): \"Mặt trước\" lấy theo hướng đang nhìn đối tượng lúc bấm tool (chọn 1 group / component thì theo trục riêng của nó) – đồ đặt xoay ngang / xiên không còn bị lấy nhầm mặt; bỏ các cạnh làm mềm khi gửi sang Revit.\n- Thêm panel Group \u0026 Array: Phá hết group (ungroup cả group lồng bên trong), Tách group mới (độc lập với các bản copy), Thêm vào group, Trừ khỏi group – không cần vào Edit Group.\n- Array theo đường: chọn đối tượng → chọn đường có sẵn (thẳng / cung / nhiều nét nối tiếp) → điểm gốc → 4 cách chia: khoảng cách cố định (lẻ ở cuối hoặc chia 2 đầu), chia đều N đoạn, chia đều với khoảng cách không quá …; tùy chọn xoay theo đường; đối tượng trong group thì bản array tự vào cùng group.\n- Thêm panel Dim: Gộp dim, Tách dim, Căn thẳng dim, Chữ dim chồng (đẩy chữ đoạn ngắn ra ngoài / so le)."
+                    },
+                    {
+                        "version":  "1.7.34",
+                        "date":  "2026-11-25",
+                        "notes":  "- Dán 2D SketchUp: sửa lỗi nét thẳng + góc bo bị nắn thành 1 cung lớn (cạnh tủ, khung bàn thờ bị phình / võng) – chỉ nhận cung khi các đoạn chia đều nhau như cung SketchUp thật.\n- Copy 5 mặt (SketchUp): \"Mặt trước\" lấy theo hướng đang nhìn đối tượng lúc bấm tool (chọn 1 group / component thì theo trục riêng của nó) – đồ đặt xoay ngang / xiên không còn bị lấy nhầm mặt; bỏ các cạnh làm mềm khi gửi sang Revit."
+                    },
+                    {
+                        "version":  "1.7.33",
+                        "date":  "2026-11-25",
+                        "notes":  "- Thư viện pattern: thêm ô \"Kích thước mẫu\" – chọn mẫu gạch / gỗ / đá / tường rồi sửa kích thước viên (ngang × dọc), mạch, so le (1/2, 1/3, 1/4), xoay; mẫu xương cá chỉnh dài × rộng thanh, đan rổ chỉnh rộng thanh + số thanh, lam chỉnh khoảng cách + góc. Xem trước ngay; Vẽ vùng / Đổi vùng / Gán vật liệu dùng luôn kích thước mới (tên tự đặt, vd SOUL_GO_SAN_200x1500_SOLE12_MODEL), tick \"Lưu thành mẫu\" để giữ lại trong thư viện."
+                    },
+                    {
+                        "version":  "1.7.32",
+                        "date":  "2026-11-23",
+                        "notes":  "- Revit – Cầu nối AI: lệnh \"Dàn trang bản vẽ CAD\" – bỏ khung ô layout CAD và ảnh phối cảnh nhỏ trong view, đặt ảnh 3D kín mép thành cột trái (A3 ngang) hoặc hàng dưới (A3 dọc) ngay trên sheet, tự chọn khung tên + tỉ lệ cho bản vẽ to nhất, viewport không tiêu đề, tên sheet theo phần chung của các tiêu đề (vd \"KỆ TỦ TV\").\n- Dim tự động (gọi từ sắp xếp / dàn trang): bỏ mốc dim chuỗi quá sát nhau (\u003c 4 mm trên giấy) để số không đè nhau.\n- Cầu nối AI: xuất ảnh xem view không còn bị chốt \"nền tối\" của Work Mode chặn."
+                    },
+                    {
+                        "version":  "1.7.31",
+                        "date":  "2026-11-23",
+                        "notes":  "- Revit – Cầu nối AI: lệnh \"Sắp xếp sheet bản vẽ CAD\" – xóa dim CAD, tự chọn khung tên A3 ngang / A3 dọc và tỉ lệ chuẩn cho vừa vùng vẽ, dim tự động 4 bên từng hình (logic tool Dim tự động), tạo sheet đánh số liên tiếp, tên sheet theo tiêu đề bản vẽ, đặt view giữa vùng vẽ.\n- Revit – Nhập CAD: sửa lỗi số sheet bị thêm đuôi \".2\".\n- Dim tự động: thêm chế độ gọi không cần chọn (dùng cho sắp xếp sheet tự động)."
+                    },
+                    {
+                        "version":  "1.7.30",
+                        "date":  "2026-11-23",
+                        "notes":  "- Revit – Cầu nối AI: chụp view / sheet nhanh hơn (72 dpi, rộng 1400 px), không còn quá thời gian chờ với sheet nhiều ảnh; báo đúng số phiên bản SOUL.\n- Revit – Cầu nối AI: lệnh mới \"Nhập CAD\" – dựng lại bản vẽ AutoCAD trong Revit theo từng layout: mỗi layout thành 1 drafting view đúng tỉ lệ (detail line, cung, polyline, chữ theo kiểu chữ SOUL đúng cỡ in, dim Revit thật, filled region, ảnh) và 1 sheet khung tên SOUL. Mỗi layout là 1 lần Ctrl+Z."
+                    },
+                    {
+                        "version":  "1.7.29",
+                        "date":  "2026-11-22",
+                        "notes":  "- Revit – Trích chi tiết: mang theo đường gióng (Reference Plane) cắt qua vùng quét sang view mới; dim bám vào đường gióng cũng được chép theo.\n- Revit – Trích chi tiết: tùy chọn \"Cắt gọn\" (legend / drafting) – nét và vùng tô chồm ra ngoài vùng quét được cắt đúng theo mép vùng: detail line / cung / spline cắt bỏ phần ngoài, vùng tô giao với khung (giữ lỗ, giữ kiểu tô và nét viền), group chồm ra ngoài được rã rồi cắt từng nét, đối tượng nằm ngoài hẳn bị xóa. Chữ, dim, tag, family 2D, legend component không cắt được – giữ nguyên và báo số lượng. Bản gốc không bị đụng tới."
+                    },
+                    {
+                        "version":  "1.7.28",
+                        "date":  "2026-11-22",
+                        "notes":  "- Revit – Trích chi tiết: sửa lỗi \"The referenced object is not valid\" khi trích từ legend gốc (legend mới bị mất ngay sau khi tạo).\n- Revit – Trích chi tiết: đối tượng trong vùng vừa quét được tô sáng (màu chọn của Revit), cộng dồn qua các vùng để thấy rõ món nào đã trích; kết thúc thì tự bỏ chọn.\n- Báo lỗi ghi rõ bước bị lỗi (tạo view / chép nét / ghi vào dự án) để xử lý nhanh."
+                    },
+                    {
+                        "version":  "1.7.27",
+                        "date":  "2026-11-22",
+                        "notes":  "- Revit: nút mới \"Trích chi tiết\" (panel Triển khai) – quét vùng trên legend / drafting view gốc → mỗi vùng thành 1 view mới để xếp lên sheet, chép đủ nét 2D đúng vị trí (detail line, group, vùng tô, chữ, dim, ký hiệu, legend component, LED).\n  · Legend → legend mới; drafting → drafting mới; mặt bằng / mặt cắt / mặt đứng → callout Detail.\n  · Quét nhiều vùng liên tục, tên tự nhảy CT01, CT02…; tỉ lệ mặc định bằng bản gốc (giữ đúng cỡ chữ); không đặt ký hiệu callout lên view gốc legend / drafting.\n- Revit: nút mới \"Cầu nối AI\" (panel SOUL.Atelier) – cho trợ lý Claude trên cùng máy đọc dự án (view, sheet, loại dim / chữ / nét / pattern / view template / khung tên / family, đếm dim – chữ – tag trong view), xuất ảnh view và mở tool SOUL như bấm nút. Chỉ máy này kết nối được, có mã khóa, chỉ nhận lệnh có tên sẵn, không sửa / xóa mô hình trực tiếp. Mặc định tắt – bấm để bật."
+                    },
+                    {
+                        "version":  "1.7.26",
+                        "date":  "2026-11-21",
+                        "notes":  "- Revit: nút mới \"LED 2D\" (panel Triển khai) – ký hiệu vị trí LED cho hồ sơ nội thất. Mặt đứng: vệt sáng chuyển màu theo nét LED (chọn nét 2D, click cạnh tủ, hoặc vẽ 2 điểm – kéo tới đâu vệt sáng tới đó). Mặt cắt: LED bảng 2cm / LED góc / LED thẳng âm + vùng sáng chữ V theo hướng chiếu. Vệt sáng nằm sau nét tủ, màu hổ phách SOUL, mỗi LED là 1 group.\n- Revit: Stretch 2D chạy được trên drafting view / legend / sheet (bỏ lỗi \"Không đặt được mặt phẳng làm việc\"). Quét xuyên nhiều group: group bị cắt ngang được tạm tách, co kéo rồi gộp lại đúng tên (cả group lồng nhau) – không còn bị phá group.\n- Revit: nút mới \"Ghim tab\" (panel SOUL.Atelier) – chọn đối tượng xong vẫn ở tab SOUL.Atelier, không tự nhảy sang tab Modify."
+                    },
+                    {
+                        "version":  "1.7.25",
+                        "date":  "2026-11-21",
+                        "notes":  "- Revit: nút mới \"Dim tự động\" (panel Triển khai) – chọn group hoặc quét nét 2D (nét dán từ SketchUp, detail line, model line) → tự đi kích thước 4 bên: lớp chi tiết từng đoạn + lớp tổng. Chọn nhiều group thì mỗi group dim riêng. Dim bám nét thật, sửa nét là dim chạy theo. Có tùy chọn bên dim, kiểu dim, khoảng cách; chọn \"không hỏi lại\" để bấm là dim ngay (giữ Shift để mở lại bảng)."
+                    },
+                    {
+                        "version":  "1.7.24",
+                        "date":  "2026-11-20",
+                        "notes":  "- SketchUp: nút mới \"Lưu phiên bản\" trên toolbar SOUL.Atelier – Save As bản mới cùng thư mục, không đè file cũ, tự tăng đuôi R06 → R07 (chưa có đuôi → _R01), phần tên phía trước giữ nguyên."
+                    },
+                    {
+                        "version":  "1.7.23",
+                        "date":  "2026-11-20",
+                        "notes":  "- In nhanh mở nhanh hơn nhiều: không kiểm tra mọi sheet lúc mở nữa – sheet được kiểm tra khi tick, và khi bấm In.\n- In nhanh: xuất PDF / ảnh hỏi lưu ở đâu, mặc định thư mục file Revit (PDF gộp hỏi luôn tên file), xuất xong tự mở thư mục.\n- In nhanh: xem theo Cây thư mục giống Project Browser (tick thư mục = chọn cả thư mục), \"Chỉ hiện mục đã chọn\".\n- In nhanh: tùy chọn ẩn / hiện reference plane, scope box, khung crop khi in.\n- Sửa lỗi nút Lệnh tắt báo \"Command Failure\" khi mở.\n- In nhanh: không chọn gì trong Project Browser → tự tick view / sheet đang mở; thêm nút \"▶ View đang mở\"."
+                    },
+                    {
+                        "version":  "1.7.22",
+                        "date":  "2026-11-19",
+                        "notes":  "- Chuẩn hóa nét \u0026 chữ: thêm cỡ nét 0.05 (hatch, nét phụ, đường lưới) – bộ chuẩn giờ có 0.05 / 0.10 / 0.20 / 0.30 / 0.50.\n- Màu nét theo tông logo SOUL.Atelier: nét đậm màu đậm, nét mảnh màu nhạt – 0.50 navy đậm, 0.30 navy, 0.20 navy nhạt, 0.10 xanh xám, 0.05 kem xám; chữ chung navy, chữ tay KCDA hổ phách đậm.\n- Tab Nét có dải màu các cỡ nét + cột Màu cho từng line style; tab Bộ chuẩn có nút \"Màu SOUL.Atelier\" / \"Tất cả đen\", bấm ô Màu để chọn màu riêng.\n- Bộ chuẩn cũ (toàn đen) tự thêm 0.05 và tô màu SOUL.Atelier; bộ đã chọn màu riêng giữ nguyên màu.\n- Bảng màu thương hiệu dùng chung (Chuẩn hóa nét \u0026 chữ → Bộ chuẩn): Navy, Navy đậm, Kem, Hổ phách… Nét, chữ, bảng màu nền tối, giao diện mọi tool, ký hiệu cửa (KTC) đều lấy màu từ đây – đổi 1 màu là mọi chỗ dùng màu đó đổi theo.\n- Ô màu: chọn màu thương hiệu (chạy theo bảng màu) hoặc \"Màu khác\" (cố định).\n- Sửa: lưu bộ chuẩn không còn làm mất bảng màu nền tối.\n- Sửa: nền tối giữ nguyên nét đứt của Reference Plane (bản sửa trước chưa vào được mã nguồn trên máy).\n- Nút mới \"Lưu phiên bản\": lưu bản mới không đè file cũ, cùng thư mục, tự tăng đuôi R06 → R07 (chưa có đuôi → _R01), phần tên phía trước giữ nguyên.\n- Nút mới \"Lệnh tắt\": gợi ý lệnh tắt cho tool SOUL.Atelier, thống kê lệnh hay dùng (từ journal của Revit) để gợi ý lệnh tắt, lọc lệnh tắt anh đặt riêng, sửa trực tiếp, ghi vào Revit, xuất / nhập file (.xml Import được vào Revit, .csv)."
+                    },
+                    {
+                        "version":  "1.7.21",
+                        "date":  "2026-11-19",
+                        "notes":  "- Dán 2D SketchUp / SketchUp thành Family tự dọn nét: gộp đoạn thẳng bị cắt vụn thành 1 nét, xóa nét trùng / chồng / quá ngắn, hàn đầu mút lệch.\n- Cung / vòng tròn bị chia 12–24 đoạn → cung tròn thật của Revit; đường cong tự do được rút gọn bớt điểm thừa. File nhẹ hơn, dễ chỉnh hơn.\n- Nút mới \"Dọn nét\" (panel SketchUp): dọn nét đã dán từ trước, CAD đã phá, nét vẽ chồng chéo – chọn nét hoặc quét khung, Ctrl+Z để hoàn tác."
+                    },
+                    {
+                        "version":  "1.7.20",
+                        "date":  "2026-11-19",
+                        "notes":  "- Nút mới \"Thư viện pattern\": lưới hình mẫu theo chủ đề + loại có sẵn trong file, tìm theo tên, chọn bản Model / Drafting; nhấp đúp là vào vẽ Filled Region ngay (mẫu chưa có tự tạo).\n- Chuẩn hóa Filled Region: gộp loại trùng, xóa loại không dùng, đổi tên theo pattern SOUL.Atelier.\n- Thư viện pattern: đổi vùng đang chọn sang mẫu khác; chuyển Filled Region ↔ Masking Region (vẽ lại cùng biên dạng); gán pattern cho vật liệu (bề mặt = bản Model, mặt cắt = bản Drafting).\n- Chủ đề pattern hiển thị tên tiếng Việt, đổi tên được."
+                    },
+                    {
+                        "version":  "1.7.19",
+                        "date":  "2026-11-19",
+                        "notes":  "- Nút mới \"Ẩn / hiện đường gióng\": ẩn Reference Plane / Reference Line trong view đang mở (bấm lại để hiện) – tránh đường gióng đè lên nét vẽ làm nét liền trông như nét đứt."
+                    },
+                    {
+                        "version":  "1.7.18",
+                        "date":  "2026-11-19",
+                        "notes":  "- Nút mới \"Màu nền tối\": 3 chế độ – giữ nguyên màu gốc / tự làm sáng màu đậm / theo bảng màu của tôi (màu theo cấu kiện: tường, cột, dầm, sàn, trần, mái, cửa, cầu thang, lan can, nội thất…; theo cỡ nét 0.10 / 0.20 / 0.30 / 0.50; màu chữ, dim, hatch, đường gióng). Bảng màu lưu trong bộ chuẩn, dùng chung cho team; về nền sáng / in / xuất luôn trả màu gốc.\n- Bảng màu nền tối mặc định theo tông logo SOUL.Atelier (kem – hổ phách – navy). Đường gióng khi nền tối giữ nét đứt nhưng mảnh nhất, màu navy mờ – chìm xuống, không lấn nét vẽ.\n- Sửa: file đang nền tối nhưng không đổi màu nét nào không còn bị chặn in."
+                    },
+                    {
+                        "version":  "1.7.17",
+                        "date":  "2026-11-19",
+                        "notes":  "- Nút mới \"Màu nền tối\": 3 chế độ – giữ nguyên màu gốc / tự làm sáng màu đậm / theo bảng màu của tôi (màu theo cấu kiện: tường, cột, dầm, sàn, trần, mái, cửa, cầu thang, lan can, nội thất…; theo cỡ nét 0.10 / 0.20 / 0.30 / 0.50; màu chữ, dim, hatch, đường gióng). Bảng màu lưu trong bộ chuẩn, dùng chung cho team; về nền sáng / in / xuất luôn trả màu gốc.\n- Bảng màu nền tối mặc định theo tông logo SOUL.Atelier (kem – hổ phách – navy). Đường gióng khi nền tối chuyển nét liền mảnh, mờ – không còn nét đứt vắt qua nét vẽ.\n- Sửa: file đang nền tối nhưng không đổi màu nét nào không còn bị chặn in."
+                    },
+                    {
+                        "version":  "1.7.16",
+                        "date":  "2026-11-19",
+                        "notes":  "- Công cụ mới \"Tạo pattern\": thư viện 42 mẫu theo chủ đề (gạch, đá, gỗ, tường, bê tông, thép, đất, vật liệu); tạo theo thông số (lưới, so le, xương cá, đan rổ, mạch, xoay); từ nét vẽ trong view; nhập .pat của CAD; lấy pattern có sẵn trong file (hatch CAD sau khi Explode) và đổi tên trước khi lưu. Mỗi mẫu tạo bản _MODEL + _DRAFT + Filled Region; xuất .pat / xuất – nhập thư viện cho team.\n- Chuẩn hóa nét \u0026 chữ: bộ chuẩn có thêm mẫu nét tự tạo (kiểu linetype CAD: 1.5, -1 …), xem trước mẫu nét.\n- Đồng bộ tên thương hiệu \"SOUL.Atelier_\" cho mọi line style, mẫu nét, kiểu chữ, tham số cửa, layer CAD do plugin tạo. View sang 2D dùng luôn nét \u0026 chữ của bộ chuẩn.\n- Nút mới \"Nền tối / Nền sáng\": đổi nền Revit, làm mờ đường gióng, nét – chữ – dim – hatch màu đậm chuyển tông sáng; màu gốc cất trong file và trả lại khi về nền sáng. In nhanh / Xuất CAD tự in đúng màu gốc; lệnh in – xuất của Revit bị chặn khi đang nền tối."
+                    },
+                    {
+                        "version":  "1.7.15",
+                        "date":  "2026-11-19",
+                        "notes":  "- Công cụ mới \"Chuẩn hóa nét \u0026 chữ\": gom mọi line style về bộ SOUL (0.10 / 0.20 / 0.30 / 0.50 liền – đứt), tự nhận diện nét mảnh – dày kể cả nét CAD đã phá; chữ về bộ SOUL_TEXT (UTM Avo) / SOUL_KCDA; font Dim, tag phòng; xóa kiểu cũ không dùng. Tab \"Bộ chuẩn SOUL\" để tự thêm / sửa cỡ nét, nhóm chữ, font, màu; xuất / nhập file bộ chuẩn dùng chung cho team.\n- Sắp xếp sheet: nút \"Nhân bản\" (Ctrl+D) cho sheet và legend – bản sao chèn ngay dưới bản gốc, số phía sau tự nhảy.\n- Nút mới \"Tự nhảy số\": bật thì chèn / xóa sheet ngay trong Project Browser số tự nhảy (đặt số \"A.04 - 002a\" để chèn sau 002)."
+                    },
+                    {
+                        "version":  "1.7.14",
+                        "date":  "2026-11-19",
+                        "notes":  "- Sắp xếp sheet: thêm chế độ LEGEND – gom legend theo nhóm (KT.01 - …, NT.01 - …), kéo thả sắp thứ tự, số tự nhảy; legend \"2D - …\" gom nhóm riêng."
+                    },
+                    {
+                        "version":  "1.7.13",
+                        "date":  "2026-11-19",
+                        "notes":  "- Sắp xếp sheet: thêm khung Xem trước – click sheet / view để xem nội dung (zoom, pan) và danh sách view đặt trên sheet.\n- Sắp xếp sheet: nút \"Áp dụng \u0026 In…\" – ghi sắp xếp rồi mở In nhanh với các sheet đang chọn tick sẵn."
+                    },
+                    {
+                        "version":  "1.7.12",
+                        "date":  "2026-11-18",
+                        "notes":  "- View sang 2D: tên view mới \"2D - \u003ctên view\u003e\"; dim thành dim thật bám nét 2D; gom nét mỗi cấu kiện thành group (Drafting View).\n- View sang 2D: hatch vật liệu bề mặt thành Filled Region mới cùng mẫu hatch, tự cắt phần bị vật phía trước che và phần ngoài khung crop."
+                    },
+                    {
+                        "version":  "1.7.11",
+                        "date":  "2026-11-18",
+                        "notes":  "- View sang 2D: sửa lỗi \"The referenced object is not valid\" khi tạo Legend (dọn legend mẫu xóa nhầm phần tử nội bộ làm mất view mới). Báo lỗi ghi rõ bước bị lỗi."
+                    },
+                    {
+                        "version":  "1.7.10",
+                        "date":  "2026-11-18",
+                        "notes":  "- Thêm \"Stretch 2D\": co kéo Detail / Model Line, Filled / Masking Region, Detail Component giống lệnh STRETCH của CAD – quét khung crossing, click 2 điểm hoặc gõ khoảng cách mm, kéo xuyên group.\n- Thêm \"View sang 2D\": chọn nhiều mặt bằng / mặt cắt / mặt đứng (hoặc sheet) chuyển thành Legend 2D \"\u003ctên view\u003e 2D\" (nét đã khử khuất, hatch, text, tag, dim) để sửa nét không ảnh hưởng model."
+                    },
+                    {
+                        "version":  "1.7.9",
+                        "date":  "2026-11-18",
+                        "notes":  "- Sắp xếp sheet: sửa lỗi Áp dụng báo \"sheetNumber cannot include prohibited characters\".\n- Sửa lỗi rê chuột làm mất chữ trong bảng; cột tự giãn hết chiều rộng.\n- Thêm xóa sheet / view; nút ▸ ▾ thu gọn từng hạng mục, thư mục; đổi tên thư mục (đổi mã NT.01 → I.08…) bằng F2, nhấp đúp hoặc chuột phải."
+                    },
+                    {
+                        "version":  "1.7.8",
+                        "date":  "2026-11-18",
+                        "notes":  "- Thêm \"Sắp xếp sheet \u0026 view\": bảng giống Project Browser, 2 chế độ SHEET / VIEW; kéo thả, chọn nhiều mục di chuyển cùng lúc.\n- Sheet: số tự nhảy theo mã thư mục (A.04 - 001, I.03 - 002…, tờ bìa 000), chèn sheet mới vào giữa như Excel.\n- Sửa cây thư mục: chèn / đổi tên / xóa thư mục và hạng mục cho cả sheet và view (xóa thư mục không xóa sheet, view)."
+                    },
                     {
                         "version":  "1.7.7",
                         "date":  "2026-11-17",
